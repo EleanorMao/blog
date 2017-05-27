@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Bite Me! Eleanor Mao
+title: 魔力叉烧包! Eleanor Mao
 subtitle: 您的好友魔力叉烧包已上线
 description: 您的好友魔力叉烧包已上线~_(┐「ε:)_❤
 author: Eleanor Mao
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://eleanormal.github.io
+url: http://eleanormao.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,3 +72,10 @@ deploy:
   repo: git@github.com:EleanorMao/eleanormao.github.io.git
   branch: master
 
+search:
+  path: search.json
+  field: all
+
+marked:
+  gfm: true
+  breaks: false

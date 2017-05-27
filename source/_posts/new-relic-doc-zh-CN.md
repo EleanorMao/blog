@@ -64,7 +64,7 @@ tags:
 ### 可配置变量
 一般就是说在那个js里面配的，可以配在环境变量里面的会另外说明名字什么的。用`exports.config = {`裹住。
 
-<table>
+<table border="1" cellpadding="1" cellspacing="0">
 	<thead>
 	<tr>
 		<th>名字</th>
@@ -213,7 +213,7 @@ tags:
 
 ### 日志变量
 在`newrelic.js`里面用`logging`变量申明的
-<table>
+<table border="1" cellpadding="1" cellspacing="0">
 	<thead>
 		<tr>
 			<th>名字</th>
@@ -243,7 +243,7 @@ tags:
 
 ### 审核日志
 在`newrelic.js`里面用`audit_log`变量申明的
-<table>
+<table border="1" cellpadding="1" cellspacing="0">
 	<thead>
 		<tr>
 			<th>名字</th>
@@ -287,7 +287,7 @@ tags:
 
 ### 错误收集变量
 在`newrelic.js`里面用`error_collector`变量申明的
-<table>
+<table border="1" cellpadding="1" cellspacing="0">
 	<thead>
 		<tr>
 			<th>名字</th>
@@ -324,7 +324,7 @@ tags:
 * 隔离其他问题，比如说辣鸡数据库性能
 
 在`newrelic.js`里面用`transaction_tracer`变量申明的
-<table>
+<table border="1" cellpadding="1" cellspacing="0">
 	<thead>
 		<tr>
 			<th>名字</th>
@@ -376,7 +376,7 @@ tags:
 
 ### 调试变量
 在`newrelic.js`里面用`debug`变量申明的
-<table>
+<table border="1" cellpadding="1" cellspacing="0">
 	<thead>
 		<tr>
 			<th>名字</th>
@@ -406,7 +406,7 @@ tags:
 
 ### 规则变量
 在`newrelic.js`里面用`rules`变量申明的
-<table>
+<table border="1" cellpadding="1" cellspacing="0">
 	<thead>
 		<tr>
 			<th>名字</th>
@@ -443,7 +443,7 @@ tags:
 
 ### 事务事件变量
 在`newrelic.js`里面用`transaction_events`变量申明的。当前没有事务事件的环境变量。
-<table>
+<table border="1" cellpadding="1" cellspacing="0">
 	<thead>
 		<tr>
 			<th>名字</th>
@@ -477,7 +477,7 @@ tags:
 
 ### 慢查询变量
 在`newrelic.js`里面用`slow_sql`变量申明的。
-<table>
+<table border="1" cellpadding="1" cellspacing="0">
 	<thead>
 		<tr>
 			<th>名字</th>
@@ -507,7 +507,7 @@ tags:
 
 ### 自定义主机名变量
 在`newrelic.js`里面用`process_host`变量申明的。这些选项控制有关New Relic APM UI中主机显示名称的行为。
-<table>
+<table border="1" cellpadding="1" cellspacing="0">
 	<thead>
 		<tr>
 			<th>名字</th>
@@ -537,7 +537,7 @@ tags:
 
 ### 环境变量重写
 本节定义了两个仅通过环境变量可用的配置选项。 这些重写在大多数配置中不使用。
-<table>
+<table border="1" cellpadding="1" cellspacing="0">
 	<thead>
 		<tr>
 			<th>名字</th>
@@ -564,7 +564,7 @@ tags:
 
 ### 数据库追踪变量
 在`newrelic.js`里面用`datastore_tracer`变量申明的。
-<table>
+<table border="1" cellpadding="1" cellspacing="0">
 	<thead>
 		<tr>
 			<th>名字</th>
@@ -782,7 +782,7 @@ newrelic.shutdown({ collectPendingData: true, timeout: 3000}, function(error) {
 
 ***可选的规则属性***
 
-<table>
+<table border="1" cellpadding="1" cellspacing="0">
 	<thead>
 		<tr>
 			<th>属性名</th>
