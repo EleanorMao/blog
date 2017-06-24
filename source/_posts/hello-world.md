@@ -2,7 +2,7 @@
 title: 初始化
 date: 2017-05-15 12:00:00
 tags:
-- 日常
+- diary
 ---
 
 This is my very first blog!!

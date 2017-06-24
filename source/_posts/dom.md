@@ -140,3 +140,4 @@ ie7及更早会返回HTML元素中所有可能的特性，但指定特性specifi
 
 ## DocumentFragment
 是一种轻量级的文档，可以通过createDocumentFragment()创建文档片段
+

@@ -1,6 +1,7 @@
 ---
 title: About
 date: 2017-05-15 13:06:19
+header-img: "img/header_img/about.jpg"
 ---
 
 在下 **魔力叉烧包**

@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul>
+                <li class="article-tag">
+                    <i class="fa fa-tag"></i>
+                    <%- list_tags(site.tags, {show_count: false, style: 'link'}) %>
+                </li>
+            </ul>
+            <% page.posts.forEach(function (post) { %>
+            <span><%= post.title %></span>
+            <% }) %>
+        </div>
+    </div>
+</div>

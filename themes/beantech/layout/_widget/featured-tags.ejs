@@ -1,0 +1,10 @@
+<!-- Featured Tags -->
+<% if(config['featured-tags']) { %>
+<section>
+    <!-- no hr -->
+    <h5><a href="<%= config.root %>tags/">FEATURED TAGS</a></h5>
+    <div class="tags">
+        <%- list_tags(site.tags, {show_count: false, style: 'link', separator: ""}) %>
+    </div>
+</section>
+<% } %>

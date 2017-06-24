@@ -1,0 +1,14 @@
+<!-- Projects-->
+<% if(config.projects) { %>
+<h5>PROJECTS</h5>
+<ul>
+    <% config.projects.forEach(function(project){ %>
+    <li>
+        <a href="<%= project.url %>" target="_blank">
+            <b><%= project.name %></b>
+            <div class="small"><%= project.desc %></div>
+        </a>
+    </li>
+    <% }); %>
+</ul>
+<% } %>
