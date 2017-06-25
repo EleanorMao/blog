@@ -7,7 +7,7 @@
     <meta name="keyword" content="<%= config.keyword %>">
     <link rel="shortcut icon" href="<%= config.root %>img/favicon.ico">
     <!-- Place this tag in your head or just before your close body tag. -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!--<script async defer src="https://buttons.github.io/buttons.js"></script>-->
     <title>
         <% if (page.title) { %>
         <%= page.title + ' - ' + config.SEOTitle %>
@@ -19,7 +19,7 @@
     <link rel="canonical" href="<%= config.url + config.root + (page.path || '').replace('index.html', '') %>">
 
     <!-- Bootstrap Core CSS -->
-    <%- css('css/bootstrap.min.css') %>
+    <%- css('https://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css') %>
 
     <!-- Custom CSS -->
     <%- css('css/beantech.min.css') %>

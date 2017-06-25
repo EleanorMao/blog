@@ -2,13 +2,15 @@
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header {
-    <% if (is_home()) { %> background-image: url('<%= config.root + config["header-img"] %>');
+    <% if (is_home() && config["header-img"]) { %> background-image: url('<%= config.root + config["header-img"] %>');
         /*config*/
-    <%} else if (is_post()){%> background-image: url('<%= page["header-img"] %>');
+    <%} else if (is_post() && page["header-img"]){%> background-image: url('<%= page["header-img"] %>');
         /*post*/
-    <%} else {%> background-image: url('<%= config.root + (page["header-img"]||config["header-img"]) %>');
+    <%} else if(page["header-img"]) {%> background-image: url('<%= config.root + page["header-img"] %>');
         /*page*/
-    <%} %>
+    <%}else {%>
+        background-image: url(/img/about.svg);
+    <%}%>
     }
 
     <% if (config.signature) {%>

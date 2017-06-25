@@ -1,9 +1,9 @@
 <% if (site.posts.length){ %>
-  <h5><%= __('RECENT POSTS') %></h3>
+  <h5><%= __('RECENT POSTS') %></h5>
   <div class="widget">
-    <ul>
+    <ul class="archive-list">
       <% site.posts.sort('date', -1).limit(5).each(function(post){ %>
-        <li>
+        <li class="archive-list-item">
           <a href="<%- url_for(post.path) %>"><%= post.title || '(no title)' %></a>
         </li>
       <% }) %>

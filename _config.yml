@@ -118,9 +118,9 @@ twitter_username: eleanormao
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 # Duoshuo settings
-disqus_username: your-disqus-ID
+disqus_username: www-chashaobao-net
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+#duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
 
 # Analytics settings
@@ -141,7 +141,7 @@ widgets:
 - projects
 - recent-posts
 - archive
-- friends-blog
+#- friends-blog
 
 # widget behavior
 ## Archive
@@ -175,3 +175,28 @@ projects: [
 
 #Custom Setting End
 
+html_minifier:
+  enable: true
+  ignore_error: false
+  exclude:
+
+css_minifier:
+  enable: true
+  exclude:
+      - '*.min.css'
+
+js_minifier:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
+
+image_minifier:
+  enable: true
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
