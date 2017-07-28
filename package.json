@@ -7,7 +7,7 @@
     "build": "hexo clean && hexo g -d"
   },
   "hexo": {
-    "version": "3.3.7"
+    "version": "3.3.8"
   },
   "dependencies": {
     "hexo": "^3.2.0",

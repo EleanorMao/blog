@@ -2,7 +2,7 @@
 title: JavaScript高级程序设计里的functions
 date: 2017-07-17 17:34:27
 tags:
-- javascripts
+- javascript
 ---
 因为比较无聊，然后本包包又是个比较喜欢做笔记的人
 
