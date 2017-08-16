@@ -38,7 +38,7 @@ router.get('index', (req, res)=>{
 });
 ```
 
-在这时我们可以使用[`res.set(field[,value])`](http://expressjs.com/en/4x/api.html#res.set)或者它的别名`res.header(field [, value])`为HTML设置Header。
+在这时我们可以使用`{% link res.set(field[,value]) http://expressjs.com/en/4x/api.html#res.set  res.set(field[,value]) %}`或者它的别名`res.header(field [, value])`为HTML设置Header。
 此时代码如下：
 ``` javascript res.set http://expressjs.com/en/4x/api.html#res.set Express
 router.get('index', (req, res)=>{
@@ -70,7 +70,7 @@ app.use((req, res, next) => {
 当然仅用`ETag`来控制资源是否缓存和更新是合理的，不过我的意见是，如果明确不缓存该资源，最好还是要加上`Cache-Control`。
 
 #### 静态资源
-Express发布静态资源通过的是[`express.static(root, [options])`](http://expressjs.com/en/4x/api.html#express.static)方法。
+Express发布静态资源通过的是`{% link express.static(root, [options]) http://expressjs.com/en/4x/api.html#express.static %}`方法。
 ```javascript
 app.use(express.static(path.join(__dirname, 'public')));
 ```
