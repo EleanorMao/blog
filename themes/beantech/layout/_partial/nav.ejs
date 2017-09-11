@@ -29,7 +29,7 @@
                     </li>
                     <% site.pages.forEach(function(page){ %>
 
-                    <% if(page.title){ %>
+                    <% if(page.title && page.source.indexOf('demo/') < 0){ %>
                     <li>
                         <a href="<%- url_for(page.path.replace('index.html', '')) %>"><%= page.title %></a>
                     </li>

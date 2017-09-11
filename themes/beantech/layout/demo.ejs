@@ -1,0 +1,24 @@
+---
+layout: layout
+---
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ol>                
+            <% site.pages.data.forEach(function(post){ %>
+                <% if( post.pages == "demo"){ %> 
+                    <li>
+                        <a href="<%- url_for(post.path) %>" style="color: #2196F3">
+                            <span class="post-title">
+                            <%- post.title || "Untitled" %>
+                            </span>
+                        </a>
+                    </li>
+                <% } %>
+            <% }) %>
+            </ol>            
+        </div>
+    </div>
+</div>
