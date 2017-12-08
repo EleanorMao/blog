@@ -163,6 +163,21 @@ friends: [{
 
 projects: [
   {
+    "name": "asumi-ui",
+    "url": "https://github.com/EleanorMao/asumi-ui",
+    "desc": "A light react ui library"
+  },
+  {
+    "name": "asumi-theme-generator",
+    "url": "https://github.com/EleanorMao/asumi-theme-generator",
+    "desc": "asumi theme generator"
+  },
+  {
+    "name": "asumi-cli",
+    "url": "https://github.com/asumi-ui/asumi-cli",
+    "desc": "scaffolding tool for asumi ui(react)"
+  },
+  {
     "name": "React-TreeTable",
     "url": "https://github.com/EleanorMao/React-TreeTable",
     "desc": "An easy react table component render tree structure and merge cells"
